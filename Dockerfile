@@ -2,7 +2,7 @@
 FROM ghcr.io/cirruslabs/flutter:3.24.3
 
 # Instalação do Firebase CLI
-RUN apk add --update npm
+RUN apt-get add -y node npm
 RUN npm install -g firebase-tools
 
 # Definir o diretório de trabalho
