@@ -9,11 +9,9 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
+      
+permissions: write-all
 
-permissions:
-  packages: write
-  contents: read
 
 jobs:
   docker_publish:
