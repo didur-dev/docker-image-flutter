@@ -1,5 +1,5 @@
 # Usando a imagem oficial do Flutter como base
-FROM cirrusci/flutter:3.24.3
+FROM ghcr.io/cirruslabs/flutter:3.24.3
 
 # Instalação do Firebase CLI
 RUN curl -sL https://firebase.tools | bash
